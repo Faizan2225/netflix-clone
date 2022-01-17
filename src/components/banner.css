@@ -1,0 +1,69 @@
+.banner {
+  position: absolute;
+  display: inline;
+  width: 100%;
+  height: 670px;
+  z-index: -10;
+}
+
+.banner-bg {
+  z-index: -12;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-logo {
+  position: absolute;
+  top: 12%;
+  left: 80px;
+  z-index: 1;
+}
+.banner-logo img {
+  position: absolute;
+  z-index: 1;
+  width: 670px;
+  height: 220px;
+}
+
+.banner p {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  width: 482px;
+  font-size: 20px;
+  top: 243px;
+  left: 5px;
+}
+
+.banner-btn {
+  border: none;
+  width: 110px;
+  height: 37px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.banner-playbutton {
+  background-color: white;
+  color: black;
+}
+
+.banner-infobutton {
+  background-color: grey;
+  color: white;
+  width: 120px;
+}
+
+.banner-infobutton:hover {
+  opacity: 0.8;
+}
+
+.banner-btns {
+  margin-top: 330px;
+  margin-left: -5px;
+}
